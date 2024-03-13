@@ -17,10 +17,14 @@ public class Zadanie2 {
      */
     @Test
     void grouping(){
+        //given
         List<String> words = Arrays.asList("apple", "banana", "cherry", "date", "fig", "grape");
 
+        //when
         Map<Integer, Long> wordCount = null;
 
+        //then
+        //assertThat()...
         System.out.println("Mapa długości słów do ich ilości: " + wordCount);
 
     }
